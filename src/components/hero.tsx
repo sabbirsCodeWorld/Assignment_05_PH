@@ -8,9 +8,9 @@ export default function Hero() {
                 {/* Left side: text content */}
                 <div className="w-full max-w-xl lg:w-[80%]">
                     <h1 className="text-2xl font-black leading-[1.05] tracking-[-0.04em]
-                        text-slate-900 sm:text-5xl lg:text-[4rem] font-[Inter]">
+                        text-slate-900 sm:text-5xl lg:text-[4rem] font-[Plus Jakarta Sans] font-extrabold">
                         Build Your Ideal
-                        <span className="bg-linear-to-r from-orange-500 via-pink-600 to-purple-600 bg-clip-text text-transparent font-[Inter] mt-2 block">
+                        <span className="bg-linear-to-r from-orange-500 via-pink-600 to-purple-600 bg-clip-text text-transparent font-[Plus Jakarta Sans] mt-2 block">
                             Development Stack
                         </span>
                     </h1>
@@ -19,7 +19,7 @@ export default function Hero() {
                         and put together the stack that fits your next project.
                     </p>
                     {/* two buttons */}
-                    <div className="font-[Inter]mt-8 flex flex-wrap items-center gap-4">
+                    <div className="font-[Plus Jakarta Sans]mt-8 flex flex-wrap items-center gap-4">
                         <button className="bg-linear-to-r from-orange-500 to-pink-500 inline-flex items-center justify-center rounded-xl 
                             text-white px-5 py-3 text-sm font-semibold shadow-lg shadow-purple-500/30 
                             transition hover:brightness-110 hover:scale-105 cursor-pointer">
