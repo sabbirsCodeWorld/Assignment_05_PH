@@ -26,7 +26,7 @@ export default function Navbar() {
            text-slate-700 transition hover:border-slate-300 hover:text-slate-900 sm:inline-flex">
             Sign in
           </button>
-          <button className="inline-flex rounded-full bg-linear-to-r from-pink-500 to-violet-600 px-4 py-2 text-sm font-semibold
+          <button className="brand-gradient-bg inline-flex rounded-full px-4 py-2 text-sm font-semibold
            text-white shadow-lg shadow-violet-500/30 transition 
            hover:brightness-110 hover:scale-105 cursor-pointer">
             Sign Up
