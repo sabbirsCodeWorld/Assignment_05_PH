@@ -3,6 +3,7 @@ import 'react-toastify/dist/ReactToastify.css'
 import Navbar from './components/nav'
 import Hero from './components/hero'
 import StackSidebar from './components/stackSidebar'
+import Footer from './components/footer'
 
 export default function App() {
   return (
@@ -15,6 +16,9 @@ export default function App() {
         <Hero />
         <StackSidebar />
       </main>
+
+      {/* footer */}
+      <Footer />
 
       <ToastContainer position="top-right" autoClose={2000} hideProgressBar={false} closeOnClick pauseOnHover />
     </div>

@@ -141,6 +141,12 @@ function StackContent() {
             </span>
           </div>
 
+          {lastAdded && (
+            <p className="mb-4 rounded-lg border border-emerald-200 bg-emerald-50 px-3 py-2 text-sm font-medium text-emerald-700">
+              Last added: {lastAdded}
+            </p>
+          )}
+
           {selectedStack.length === 0 ? (
             <div className="flex min-h-55 flex-col items-center justify-center rounded-2xl border border-dashed border-slate-300 bg-slate-50 p-6 text-center">
               <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-white text-2xl shadow-sm">
